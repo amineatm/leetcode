@@ -1,0 +1,24 @@
+# Ignore all bin and obj folders anywhere in the repo
+**/bin/
+**/obj/
+
+# Ignore Visual Studio settings/cache
+.vs/
+*.user
+*.suo
+
+# Ignore NuGet packages and cache files
+*.nupkg
+*.snupkg
+packages/
+**/project.assets.json
+**/project.nuget.cache
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.temp
+
+# OS-specific junk files
+.DS_Store
+Thumbs.db
